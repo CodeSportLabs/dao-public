@@ -24,7 +24,7 @@ All monies sent to minter go to TimeLock Via OpenZeppelin's Payment Splitter.  M
 ## Deploy Output for BitTorrent Chain
 
 ```
-$ npx hardhat run scripts/deploy-ten.js --network bittorent
+$ npx hardhat run scripts/deploy-ten.js --network bittorrent
 pinFileToIPFS Output:
 {
   IpfsHash: 'QmS892492WbNRQ8W3b5KZ3sVv7mCPLbe3e77gSLqJsGsKU',
