@@ -17,7 +17,7 @@ The code for this project is in a private repo. If you need access please contac
 ```
 All monies sent to minter go to TimeLock Via OpenZeppelin's Payment Splitter.  Money in TimeLock must be voted on to go anywhere else!
 
-**NB:** `Box.sol` is currently owned by `TimeLock.sol` in order to demostrate governance.  May also make Minter and Governor owned by TimeLock.
+**NB:** `Box.sol` is currently owned by `TimeLock.sol` in order to demonstrate governance.  May also make Minter and Governor owned by TimeLock.
 
 ![Builder's DAO Image 1](https://bttc-builders-dao.vercel.app/images/analyst-typing.jpg)
 
