@@ -87,17 +87,7 @@ Box Contract deployed TO: 0x3902F8E827EFC4b56DEB02aB0697D65F3D9F3aE0
 
 # Project Resources
 
-## Ehereum to Polygon Asset Bridging
-* [Bridge Assets to Polygon <-> Ethereum Mainnet](https://docs.polygon.technology/docs/develop/ethereum-polygon/submit-mapping-request)
-* [Bridging Assets to Polygon: Step-by-step Guide](https://blog.forcedao.com/bridging-assets-to-polygon-step-by-step-guide-c0c84c94513d)
-* [How To Bridge Tokens From Ethereum To Polygon With Metamask](https://consensys.net/blog/metamask/how-to-bridge-tokens-from-ethereum-to-polygon-with-metamask/)
-* [Google SERP]()
-
-<!-- DeFi, Assest on Mainnet, and Governance on -->
-
-# Project Resources
-
-## Ehereum to Polygon Asset Bridging
+## Ethereum to Polygon Asset Bridging
 * [Bridge Assets to Polygon <-> Ethereum Mainnet](https://docs.polygon.technology/docs/develop/ethereum-polygon/submit-mapping-request)
 * [Bridging Assets to Polygon: Step-by-step Guide](https://blog.forcedao.com/bridging-assets-to-polygon-step-by-step-guide-c0c84c94513d)
 * [How To Bridge Tokens From Ethereum To Polygon With Metamask](https://consensys.net/blog/metamask/how-to-bridge-tokens-from-ethereum-to-polygon-with-metamask/)
