@@ -100,7 +100,7 @@ Box Contract deployed TO: 0x3902F8E827EFC4b56DEB02aB0697D65F3D9F3aE0
 
 * DeFi: Passive Investment Income Tools 
     * [Flash Loans](https://blog.openzeppelin.com/flash-mintable-asset-backed-tokens/): OpenZeppelin Workshop
-    * [Build An Exchange]
+    * [Build An Exchange](https://docs.0x.org/introduction/guides)
     * [Earn Rewards Staking with Matic](https://www.coinbase.com/learn/wallet/how-to-earn-rewards-staking-with-matic): Tut by Coinbase
     * [Building With DeFi on Ethereum](https://blog.coinbase.com/introduction-to-building-on-defi-with-ethereum-and-usdc-part-1-ea952295a6e2#ab6f): by Coinbase
 
@@ -108,7 +108,6 @@ Box Contract deployed TO: 0x3902F8E827EFC4b56DEB02aB0697D65F3D9F3aE0
 ## Factories and Clones
 * [Creating Contracts from a Contract](https://www.youtube.com/watch?v=CyzsUA12ju4&t=2s): Youtube Tutorial from Smart Contract Programmer
 * [Contract Deployment Through Clones](https://blog.openzeppelin.com/workshop-recap-cheap-contract-deployment-through-clones/): OpenZeppelin Workshop
-
 
 
 ## Fake USDC on Mumbai
