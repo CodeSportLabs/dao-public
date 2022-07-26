@@ -150,9 +150,9 @@ Box Contract deployed TO: 0x3902F8E827EFC4b56DEB02aB0697D65F3D9F3aE0
 > operations as token.safeTransfer(…​), etc.
 > * **Source:** *  [OZ Docs](https://docs.openzeppelin.com/contracts/4.x/api/token/erc20#SafeERC20)
 
-[How to Use SafeERC20](https://forum.openzeppelin.com/t/how-to-use-safeerc20/6342)
-[SafeERC20, TokenTimelock, Wrappers](https://forum.openzeppelin.com/t/safeerc20-tokentimelock-wrappers/396)
-[...Understand How SafeERC20 Works](https://forum.openzeppelin.com/t/making-sure-i-understand-how-safeerc20-works/2940)
+* [How to Use SafeERC20](https://forum.openzeppelin.com/t/how-to-use-safeerc20/6342)
+* [SafeERC20, TokenTimelock, Wrappers](https://forum.openzeppelin.com/t/safeerc20-tokentimelock-wrappers/396)
+* [...Understand How SafeERC20 Works](https://forum.openzeppelin.com/t/making-sure-i-understand-how-safeerc20-works/2940)
 
 ## Redirect Your Local Repo to a New Upstream or Origina
 
