@@ -3,7 +3,7 @@ We are  a team of Full Stack Blockchain Software Engineers in the USA and Singap
 
 Our focus is on building Programmable, Utility NFTs.  We see NFTs as tokenized React Applications.
 
-[![nft-vision-quote-from-marcos|690x160]([upload://cl1tc1aCh0A33NVWl77c67llBS3.png](https://aws1.discourse-cdn.com/business4/uploads/trondao/original/2X/5/567a7a6da9420ac99271d75ee3fce1f3e1de03f3.png))](https://codesport.io/blockchain/dao/use-cases-for-programmable-and-utility-nfts/)
+[![nft-vision-quote-from-marcos|690x160](https://aws1.discourse-cdn.com/business4/uploads/trondao/original/2X/5/567a7a6da9420ac99271d75ee3fce1f3e1de03f3.png)](https://codesport.io/blockchain/dao/use-cases-for-programmable-and-utility-nfts/)
 
 Our goal is to do projects on commission for Fortune 500 companies and other Web 3 studios. 
 
