@@ -21,6 +21,8 @@ The code for this project is in a private repo. If you need access please contac
 
 ## Governance Constants
 
+These are mutable and will be published on the proposal page.
+
 ```javascript
     const MIN_DELAY      = 3600  // 3600 = 1 hour - after a vote passes, you have 1 hour before you can enact  
     const VOTING_PERIOD  = 547  // 45818 Blocks = 1 week - how long the vote lasts. | 547 Blocks = 2 hours
@@ -29,9 +31,11 @@ The code for this project is in a private repo. If you need access please contac
 ```
 All monies sent to minter go to TimeLock Via OpenZeppelin's Payment Splitter.  Money in TimeLock must be voted on to go anywhere else!
 
-**NB:** `Box.sol` is currently owned by `TimeLock.sol` in order to demonstrate governance.  May also make Minter and Governor owned by TimeLock.
+**NB:** `Box.sol` is currently owned by `TimeLock.sol` in order to demonstrate governance.  We reserve the optionm to make Minter and Governor owned by TimeLock.
 
+## Smart Contract Governance Unit Test Results:
 
+![Governance Unit Testing](https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/002/043/266/datas/gallery.jpg)
 
 ## Project Info
 ![Builder's DAO Image 1](https://bttc-builders-dao.vercel.app/images/analyst-typing.jpg)
