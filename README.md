@@ -1,3 +1,13 @@
+# Project Goal
+We are  a team of Full Stack Blockchain Software Engineers in the USA and Singapore. 
+
+Our focus is on building Programmable, Utility NFTs.  We see NFTs as tokenized React Applications.
+
+[![nft-vision-quote-from-marcos|690x160]([upload://cl1tc1aCh0A33NVWl77c67llBS3.png](https://aws1.discourse-cdn.com/business4/uploads/trondao/original/2X/5/567a7a6da9420ac99271d75ee3fce1f3e1de03f3.png))](https://codesport.io/blockchain/dao/use-cases-for-programmable-and-utility-nfts/)
+
+Our goal is to do projects on commission for Fortune 500 companies and other Web 3 studios. 
+
+
 # Builder's DAO Public Repo
 
 Our website is live and may be tested on:
@@ -21,28 +31,11 @@ All monies sent to minter go to TimeLock Via OpenZeppelin's Payment Splitter.  M
 
 **NB:** `Box.sol` is currently owned by `TimeLock.sol` in order to demonstrate governance.  May also make Minter and Governor owned by TimeLock.
 
+
+
+## Project Info
 ![Builder's DAO Image 1](https://bttc-builders-dao.vercel.app/images/analyst-typing.jpg)
 
-
-**Project Goal**: 
-We are  a team of Full Stack Blockchain Software Engineers in the USA and Singapore. 
-
-Our focus is on building Programmable, Utility NFTs.  We see NFTs as tokenized React Applications.
-
-[![nft-vision-quote-from-marcos|690x160](upload://cl1tc1aCh0A33NVWl77c67llBS3.png)](https://codesport.io/blockchain/dao/use-cases-for-programmable-and-utility-nfts/)
-
-Our goal is to do projects on commission for Fortune 500 companies and other Web 3 studios. 
-
-Prize money will be used to pay 1 to 3 developers to:
- 
-1. Further build out the DAO infrastructure
-2. Deploy website to a more robust backend with NGINX
-3. Have smart contracts audited
-4. Deploy to Mainnet
-
-![analyst-typing|690x387](upload://zFXBdBmdGSFTnQ3D1MbsZOSpuvr.jpeg)
-
-**Project Info**: 
 We are seeking to Spin-off our [**Programmable and Utility NFT R&D efforts** ](https://codesport.io/blockchain/dao/use-cases-for-programmable-and-utility-nfts/) into a global and autonomous DAO. The DAO shall be a Blockchain Development Studio focused on serving:
 
 * Fortune 500 companies
