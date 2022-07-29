@@ -23,6 +23,76 @@ All monies sent to minter go to TimeLock Via OpenZeppelin's Payment Splitter.  M
 
 ![Builder's DAO Image 1](https://bttc-builders-dao.vercel.app/images/analyst-typing.jpg)
 
+
+**Project Goal**: 
+We are  a team of Full Stack Blockchain Software Engineers in the USA and Singapore. 
+
+Our focus is on building Programmable, Utility NFTs.  We see NFTs as tokenized React Applications.
+
+[![nft-vision-quote-from-marcos|690x160](upload://cl1tc1aCh0A33NVWl77c67llBS3.png)](https://codesport.io/blockchain/dao/use-cases-for-programmable-and-utility-nfts/)
+
+Our goal is to do projects on commission for Fortune 500 companies and other Web 3 studios. 
+
+Prize money will be used to pay 1 to 3 developers to:
+ 
+1. Further build out the DAO infrastructure
+2. Deploy website to a more robust backend with NGINX
+3. Have smart contracts audited
+4. Deploy to Mainnet
+
+![analyst-typing|690x387](upload://zFXBdBmdGSFTnQ3D1MbsZOSpuvr.jpeg)
+
+**Project Info**: 
+We are seeking to Spin-off our [**Programmable and Utility NFT R&D efforts** ](https://codesport.io/blockchain/dao/use-cases-for-programmable-and-utility-nfts/) into a global and autonomous DAO. The DAO shall be a Blockchain Development Studio focused on serving:
+
+* Fortune 500 companies
+* Digital Studios & Marketing Agencies (i.e., Digital Marketing Agencies) 
+
+Our studio is currently iterating over novel Blockchain business. These Blockchain projects primarily for Fortune 500 companies as well as Digital Studios & Marketing Agencies.
+
+We also incubate  promising internal projects such as [Fitness Ventures](https://forum.trondao.org/t/fitness-ventures-launch-a-real-life-fitness-group-on-the-blockchain/4382)
+
+There is demand for our business. According to [TechCrunch](https://techcrunch.com/2022/07/14/nft-brand-loyalty-platform-hang-banks-16-million-from-paradigm/):
+
+> Web3 startup [Hang](https://www.hang.xyz/) is one such startup looking to build up a client base of brands and help them leverage NFTs to replace their existing membership and loyalty programs
+
+We explore these use cases further in our blog post, [**Use Cases for Utility & Programmable NFTs**](https://codesport.io/blockchain/dao/use-cases-for-programmable-and-utility-nfts/)
+
+**Project Repo/Website**:  
+
+Project is currently not open-sourced. However, we have: 
+
+* A live Demo Website: https://bttc-builders-dao.vercel.app
+* A completed [55-day Technical Roadmap](https://codesport.io/blockchain/dao/dao-buildout-may-23-july-15#roadmap) 
+* Project Technical Resource Guide on GitHub: https://github.com/CodeSportLabs/dao-public 
+
+**Project Details**: 
+Our goal is to encourage the use of NFTs as primitives to provide cashflow entitlements, awards + prizes for loyalty programs, blockchain-based credentialing, proof of provenance, proof of work (completed labor), and proof of attendance (of events) .
+
+We see NFTs as tokenized **React Applications**. Novel features of such NFTs include:
+
+1. Programmable payments (e.g. salaries, dividends, interest, awards, etc.)
+2. Access control functionality (membership)*
+3. Governance (Voting) via an ERC-721 DAO
+4. Dynamic QR Codes
+5. Payment Escrows
+6. Brick and mortar payments integration (QR code scanning and crypto wallet integration)
+7. Mini E-Commerce Stores 
+
+**Project Milestones & Features**: 
+
+* [55-day Roadmap](https://codesport.io/blockchain/dao/dao-buildout-may-23-july-15#roadmap)
+* [Roadmap: DAO Buildout June 21 to June 28](https://codesport.io/blockchain/dao/roadmap-dao-buildout-june-21-to-june-28/)
+* [Roadmap: DAO Buildout July 5 to July 15](https://codesport.io/blockchain/dao/roadmap-dao-buildout-july-5-to-july-15/)
+* [Building a Core Dev Team & Incentivizing the Right Behaviors](https://codesport.io/business-strategy/daos-incentivizing-the-right-behaviors/)
+
+### Bug Fixes
+
+**1.** Allow finance pages to be viewed by users without Metamask wallets. That is, `window.ethereum == undefined`
+
+**2.** The frontend code for the `vote` button is broken. Also, we need to add timer/countdown until voting period expires.
+
+
 ## Deploy Output for BitTorrent Chain
 
 ```
