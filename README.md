@@ -7,7 +7,6 @@ Our focus is on building Programmable, Utility NFTs.  We see NFTs as tokenized R
 
 Our goal is to do projects on commission for Fortune 500 companies and other Web 3 studios. 
 
-
 # Builder's DAO Public Repo
 
 Our website is live and may be tested on:
@@ -38,7 +37,7 @@ All monies sent to minter go to TimeLock Via OpenZeppelin's Payment Splitter.  M
 ![Governance Unit Testing](https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/002/043/266/datas/gallery.jpg)
 
 ## Project Info
-![Builder's DAO Image 1](https://bttc-builders-dao.vercel.app/images/analyst-typing.jpg)
+
 
 We are seeking to Spin-off our [**Programmable and Utility NFT R&D efforts** ](https://codesport.io/blockchain/dao/use-cases-for-programmable-and-utility-nfts/) into a global and autonomous DAO. The DAO shall be a Blockchain Development Studio focused on serving:
 
@@ -48,23 +47,16 @@ We are seeking to Spin-off our [**Programmable and Utility NFT R&D efforts** ](h
 Our studio is currently iterating over novel Blockchain business. These Blockchain projects primarily for Fortune 500 companies as well as Digital Studios & Marketing Agencies.
 
 We also incubate  promising internal projects such as [Fitness Ventures](https://forum.trondao.org/t/fitness-ventures-launch-a-real-life-fitness-group-on-the-blockchain/4382)
-
+![Builder's DAO Image 1](https://bttc-builders-dao.vercel.app/images/analyst-typing.jpg)
 There is demand for our business. According to [TechCrunch](https://techcrunch.com/2022/07/14/nft-brand-loyalty-platform-hang-banks-16-million-from-paradigm/):
 
 > Web3 startup [Hang](https://www.hang.xyz/) is one such startup looking to build up a client base of brands and help them leverage NFTs to replace their existing membership and loyalty programs
 
 We explore these use cases further in our blog post, [**Use Cases for Utility & Programmable NFTs**](https://codesport.io/blockchain/dao/use-cases-for-programmable-and-utility-nfts/)
 
-**Project Repo/Website**:  
-
-Project is currently not open-sourced. However, we have: 
-
-* A live Demo Website: https://bttc-builders-dao.vercel.app
-* A completed [55-day Technical Roadmap](https://codesport.io/blockchain/dao/dao-buildout-may-23-july-15#roadmap) 
-* Project Technical Resource Guide on GitHub: https://github.com/CodeSportLabs/dao-public 
 
 **Project Details**: 
-Our goal is to encourage the use of NFTs as primitives to provide cashflow entitlements, awards + prizes for loyalty programs, blockchain-based credentialing, proof of provenance, proof of work (completed labor), and proof of attendance (of events) .
+Our goal is to encourage the use of NFTs as primitives to provide awards, prizes, and incentices for loyalty programs, blockchain-based credentialing (e.g., memberships), proof of provenance, proof of work (completed labor), and proof of attendance (of events).
 
 We see NFTs as tokenized **React Applications**. Novel features of such NFTs include:
 
