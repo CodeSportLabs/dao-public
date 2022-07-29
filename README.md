@@ -9,14 +9,15 @@ Our goal is to do projects on commission for Fortune 500 companies and other Web
 
 # Builder's DAO Public Repo
 
-Our website is live and may be tested on:
+The code for this project is in a private repo. If you need access, please contact [Code Sport Labs by email](https://codesport.io/contact-us)
+
+Our websites is live and may be tested on:
 
 * [Polygon's Mumbai Testnet](https://builders-dao.vercel.app/) 
 * [BitTorrent Chain's Donau Testnet](https://bttc-builders-dao.vercel.app/)
 
 View the resource library at: https://codesport.io/dao-public
 
-The code for this project is in a private repo. If you need access please contact [Code Sport Labs by email](https://codesport.io/contact-us)
 
 ## Governance Constants
 
@@ -55,7 +56,7 @@ There is demand for our business. According to [TechCrunch](https://techcrunch.c
 We explore these use cases further in our blog post, [**Use Cases for Utility & Programmable NFTs**](https://codesport.io/blockchain/dao/use-cases-for-programmable-and-utility-nfts/)
 
 
-**Project Details**: 
+### Project Details
 Our goal is to encourage the use of NFTs as primitives to provide awards, prizes, and incentices for loyalty programs, blockchain-based credentialing (e.g., memberships), proof of provenance, proof of work (completed labor), and proof of attendance (of events).
 
 We see NFTs as tokenized **React Applications**. Novel features of such NFTs include:
@@ -68,7 +69,7 @@ We see NFTs as tokenized **React Applications**. Novel features of such NFTs inc
 6. Brick and mortar payments integration (QR code scanning and crypto wallet integration)
 7. Mini E-Commerce Stores 
 
-**Project Milestones & Features**: 
+### Project Milestones & Features 
 
 * [55-day Roadmap](https://codesport.io/blockchain/dao/dao-buildout-may-23-july-15#roadmap)
 * [Roadmap: DAO Buildout June 21 to June 28](https://codesport.io/blockchain/dao/roadmap-dao-buildout-june-21-to-june-28/)
