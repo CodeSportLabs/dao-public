@@ -1,4 +1,4 @@
-# Project Goal
+# Project Overview 
 We are  a team of Full Stack Blockchain Software Engineers in the USA and Singapore. 
 
 Our focus is on building Programmable, Utility NFTs.  We see NFTs as tokenized React Applications.
@@ -7,14 +7,16 @@ Our focus is on building Programmable, Utility NFTs.  We see NFTs as tokenized R
 
 Our goal is to do projects on commission for Fortune 500 companies and other Web 3 studios. 
 
+Our websites are live and may be tested on:
+
+* [Polygon's Mumbai Testnet](https://builders-dao.vercel.app/) 
+* [BitTorrent Chain's Donau Testnet](https://bttc-builders-dao.vercel.app/)
+
+
 # Builder's DAO Public Repo
 
 The code for this project is in a private repo. If you need access, please contact [Code Sport Labs by email](https://codesport.io/contact-us)
 
-Our websites is live and may be tested on:
-
-* [Polygon's Mumbai Testnet](https://builders-dao.vercel.app/) 
-* [BitTorrent Chain's Donau Testnet](https://bttc-builders-dao.vercel.app/)
 
 View the resource library at: https://codesport.io/dao-public
 
