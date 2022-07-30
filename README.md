@@ -38,12 +38,12 @@ There is demand for our business. According to [TechCrunch](https://techcrunch.c
 
 We explore these use cases further in our blog post, [**Use Cases for Utility & Programmable NFTs**](https://codesport.io/blockchain/dao/use-cases-for-programmable-and-utility-nfts/)
 
-### Programmable, Utility NFTs
+### Programmable, Utility NFTs Use Cases
 Our goal is to encourage the use of NFTs as primitives for:
 
 * Cash flows and  monetary and non-monetary entitlements including salaries, prizes, and incentives for loyalty programs
 * Blockchain-based credentialing (e.g., memberships)
-* Proof of provenance,
+* Proof of provenance
 * Proof of work (completed labor)
 * Proof of attendance (of events)
 
