@@ -5,13 +5,12 @@ Our focus is on building Programmable, Utility NFTs.  We see NFTs as tokenized R
 
 [![nft-vision-quote-from-marcos|690x160](https://aws1.discourse-cdn.com/business4/uploads/trondao/original/2X/5/567a7a6da9420ac99271d75ee3fce1f3e1de03f3.png)](https://codesport.io/blockchain/dao/use-cases-for-programmable-and-utility-nfts/)
 
-Our goal is to do projects on commission for Fortune 500 companies and other Web 3 studios. 
-
 Our websites are live and may be tested on:
 
 * [Polygon's Mumbai Testnet](https://builders-dao.vercel.app/) 
 * [BitTorrent Chain's Donau Testnet](https://bttc-builders-dao.vercel.app/)
 
+![Builder's DAO Image 1](https://bttc-builders-dao.vercel.app/images/analyst-typing.jpg)
 
 # Builder's DAO Public Repo
 
@@ -21,26 +20,8 @@ The code for this project is in a private repo. If you need access, please conta
 View the resource library at: https://codesport.io/dao-public
 
 
-## Governance Constants
 
-These are mutable and will be published on the proposal page.
-
-```javascript
-    const MIN_DELAY      = 3600  // 3600 = 1 hour - after a vote passes, you have 1 hour before you can enact  
-    const VOTING_PERIOD  = 547  // 45818 Blocks = 1 week - how long the vote lasts. | 547 Blocks = 2 hours
-    const VOTING_DELAY   = 1    // 1 Block = 13.2 seconds - How many blocks till a proposal vote becomes active
-    const QUORUM_PERCENT = 80   // 4 = 4% of voters to must vote for a proposal to pass | 80 = 80%
-```
-All monies sent to minter go to TimeLock Via OpenZeppelin's Payment Splitter.  Money in TimeLock must be voted on to go anywhere else!
-
-**NB:** `Box.sol` is currently owned by `TimeLock.sol` in order to demonstrate governance.  We reserve the optionm to make Minter and Governor owned by TimeLock.
-
-## Smart Contract Governance Unit Test Results:
-
-![Governance Unit Testing](https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/002/043/266/datas/gallery.jpg)
-
-## Project Info
-
+# Project Details
 
 We are seeking to Spin-off our [**Programmable and Utility NFT R&D efforts** ](https://codesport.io/blockchain/dao/use-cases-for-programmable-and-utility-nfts/) into a global and autonomous DAO. The DAO shall be a Blockchain Development Studio focused on serving:
 
@@ -50,16 +31,21 @@ We are seeking to Spin-off our [**Programmable and Utility NFT R&D efforts** ](h
 Our studio is currently iterating over novel Blockchain business. These Blockchain projects primarily for Fortune 500 companies as well as Digital Studios & Marketing Agencies.
 
 We also incubate  promising internal projects such as [Fitness Ventures](https://forum.trondao.org/t/fitness-ventures-launch-a-real-life-fitness-group-on-the-blockchain/4382)
-![Builder's DAO Image 1](https://bttc-builders-dao.vercel.app/images/analyst-typing.jpg)
+
 There is demand for our business. According to [TechCrunch](https://techcrunch.com/2022/07/14/nft-brand-loyalty-platform-hang-banks-16-million-from-paradigm/):
 
 > Web3 startup [Hang](https://www.hang.xyz/) is one such startup looking to build up a client base of brands and help them leverage NFTs to replace their existing membership and loyalty programs
 
 We explore these use cases further in our blog post, [**Use Cases for Utility & Programmable NFTs**](https://codesport.io/blockchain/dao/use-cases-for-programmable-and-utility-nfts/)
 
+### Programmable, Utility NFTs
+Our goal is to encourage the use of NFTs as primitives for:
 
-### Project Details
-Our goal is to encourage the use of NFTs as primitives to provide awards, prizes, and incentices for loyalty programs, blockchain-based credentialing (e.g., memberships), proof of provenance, proof of work (completed labor), and proof of attendance (of events).
+* Cash flows and  monetary and non-monetary entitlements including salaries, prizes, and incentives for loyalty programs
+* Blockchain-based credentialing (e.g., memberships)
+* Proof of provenance,
+* Proof of work (completed labor)
+* Proof of attendance (of events)
 
 We see NFTs as tokenized **React Applications**. Novel features of such NFTs include:
 
@@ -77,6 +63,25 @@ We see NFTs as tokenized **React Applications**. Novel features of such NFTs inc
 * [Roadmap: DAO Buildout June 21 to June 28](https://codesport.io/blockchain/dao/roadmap-dao-buildout-june-21-to-june-28/)
 * [Roadmap: DAO Buildout July 5 to July 15](https://codesport.io/blockchain/dao/roadmap-dao-buildout-july-5-to-july-15/)
 * [Building a Core Dev Team & Incentivizing the Right Behaviors](https://codesport.io/business-strategy/daos-incentivizing-the-right-behaviors/)
+
+
+### Governance Variables
+
+These are mutable and will be published on the proposal page.
+
+```javascript
+    const MIN_DELAY      = 3600  // 3600 = 1 hour - after a vote passes, you have 1 hour before you can enact  
+    const VOTING_PERIOD  = 547  // 45818 Blocks = 1 week - how long the vote lasts. | 547 Blocks = 2 hours
+    const VOTING_DELAY   = 1    // 1 Block = 13.2 seconds - How many blocks till a proposal vote becomes active
+    const QUORUM_PERCENT = 80   // 4 = 4% of voters to must vote for a proposal to pass | 80 = 80%
+```
+All monies sent to minter go to TimeLock Via OpenZeppelin's Payment Splitter.  Money in TimeLock must be voted on to go anywhere else!
+
+**NB:** `Box.sol` is currently owned by `TimeLock.sol` in order to demonstrate governance.  We reserve the optionm to make Minter and Governor owned by TimeLock.
+
+### Smart Contract Governance Unit Test Results:
+
+![Governance Unit Testing](https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/002/043/266/datas/gallery.jpg)
 
 ### Bug Fixes
 
