@@ -59,7 +59,6 @@ We see NFTs as tokenized **React Applications**. Novel features of such NFTs inc
 
 ### Project Milestones & Features 
 
-* [55-day Roadmap](https://codesport.io/blockchain/dao/dao-buildout-may-23-july-15#roadmap)
 * [Roadmap: DAO Buildout June 21 to June 28](https://codesport.io/blockchain/dao/roadmap-dao-buildout-june-21-to-june-28/)
 * [Roadmap: DAO Buildout July 5 to July 15](https://codesport.io/blockchain/dao/roadmap-dao-buildout-july-5-to-july-15/)
 * [Building a Core Dev Team & Incentivizing the Right Behaviors](https://codesport.io/business-strategy/daos-incentivizing-the-right-behaviors/)
