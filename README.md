@@ -87,7 +87,7 @@ All monies sent to minter go to TimeLock Via OpenZeppelin's Payment Splitter.  M
 
 **1.** Allow finance pages to be viewed by users without Metamask wallets. That is, `window.ethereum == undefined`
 
-**2.** The frontend code for the `vote` button is broken. Also, we need to add timer/countdown until voting period expires.
+**2.** The frontend code for the `vote` page should alert if users are not members and redirect somewhere else. Also, we need to add timer/countdown until voting period expires.
 
 
 ## Deploy Output for BitTorrent Chain
