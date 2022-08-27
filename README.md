@@ -1,11 +1,13 @@
 # Project Overview: Builder's DAO
-We are  a team of Full Stack Blockchain Software Engineers in the USA and Singapore. 
+We are a team of volunteer Software Engineers in the USA and Singapore.
 
-Our focus is on building Programmable, Utility NFTs.  We see NFTs as tokenized React Applications.
+We are looking for new career opportunities in the Blockchain space.. 
+
+We enjoy coding novel use cases for Programmable, Utility NFTs.  We see NFTs as tokenized React Applications:
 
 [![nft-vision-quote-from-marcos|690x160](https://global.discourse-cdn.com/business4/uploads/trondao/original/2X/5/567a7a6da9420ac99271d75ee3fce1f3e1de03f3.png)](https://codesport.io/blockchain/dao/use-cases-for-programmable-and-utility-nfts/)
 
-Our websites are live and may be tested on:
+Our website are live and may be tested on:
 
 * [Polygon's Mumbai Testnet](https://builders-dao.vercel.app/) 
 
@@ -19,7 +21,7 @@ The code for this project is in a private repo. If you need access, please conta
 View the resource library at: https://codesport.io/dao-public
 
 
-
+<!--
 # Project Details
 
 We are seeking to Spin-off our [**Programmable and Utility NFT R&D efforts** ](https://codesport.io/blockchain/dao/use-cases-for-programmable-and-utility-nfts/) into a global and autonomous DAO. The DAO shall be a Blockchain Development Studio focused on serving:
@@ -151,3 +153,4 @@ Box Contract deployed TO: 0x3902F8E827EFC4b56DEB02aB0697D65F3D9F3aE0
 (Fake) DAI Mumbai Testnet Contract Address: 0xa362893f40fcc2430b4d95c6f420e923d7d793e2
 0xSplit Contract Address: 0xAEDC3E203A84dB63926Bb775F3183D851a4D2a16
 ```
+-->
