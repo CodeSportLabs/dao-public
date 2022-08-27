@@ -3,12 +3,11 @@ We are  a team of Full Stack Blockchain Software Engineers in the USA and Singap
 
 Our focus is on building Programmable, Utility NFTs.  We see NFTs as tokenized React Applications.
 
-[![nft-vision-quote-from-marcos|690x160](https://aws1.discourse-cdn.com/business4/uploads/trondao/original/2X/5/567a7a6da9420ac99271d75ee3fce1f3e1de03f3.png)](https://codesport.io/blockchain/dao/use-cases-for-programmable-and-utility-nfts/)
+[![nft-vision-quote-from-marcos|690x160](https://global.discourse-cdn.com/business4/uploads/trondao/original/2X/5/567a7a6da9420ac99271d75ee3fce1f3e1de03f3.png)](https://codesport.io/blockchain/dao/use-cases-for-programmable-and-utility-nfts/)
 
 Our websites are live and may be tested on:
 
 * [Polygon's Mumbai Testnet](https://builders-dao.vercel.app/) 
-* [BitTorrent Chain's Donau Testnet](https://bttc-builders-dao.vercel.app/)
 
 ![Builder's DAO Image 1](https://bttc-builders-dao.vercel.app/images/analyst-typing.jpg)
 
