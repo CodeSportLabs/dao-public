@@ -1,10 +1,10 @@
 # Project Overview: Programmable, Utiltiy NFT
 
-
-
 We created a Programmable, Utiltiy NFT. It is Dynamic and Interactive NFT. It includes an mini e-commerce shop, a live listing of the last 5 updated repos, a financial management interface). 
 
-You may view and interact with our NFTs here https://builders-dao.vercel.app/nft/0  and here: https://builders-dao.vercel.app/nft/1
+You may view and interact with our NFTs here: https://builders-dao.vercel.app/nft/0  and here: https://builders-dao.vercel.app/nft/1
+
+OpenSea was able to capture our minted NFTs. However payment and financial management functionality is disabled due to Cross-Origin Resource Sharing (CORS): https://testnets.opensea.io/assets/mumbai/0x04d4ad7a801b8642f053dcef4ac4c3a24596a1a8/0 
 
 ## Chainlink: How We Integrated and Our Inspiration
 
@@ -12,8 +12,9 @@ You may view and interact with our NFTs here https://builders-dao.vercel.app/nft
 
 2. **Inspiration:** This project was inspired by Chainlink's blog posts *[What Is a Dynamic NFT?](https://blog.chain.link/what-is-a-dynamic-nft/)* and *[How to Build Dynamic NFTs on Polygon](https://blog.chain.link/how-to-build-dynamic-nfts-on-polygon/)*
 
-![Builder's DAO Image 1](https://builders-dao.vercel.app/images/analyst-typing.jpg)
-
+![Builder's DAO Image 1](https://builders-dao.vercel.app/images/girl-screen-overlay.jp)
+g
+<!--https://builders-dao.vercel.app/images/analyst-typing.jpg-->
 ## Who We Are
 
 Code Sport is small  team of **volunteer** Engineers in the USA and Singapore.
