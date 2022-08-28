@@ -1,6 +1,6 @@
 ![Builder's DAO Image 1](https://builders-dao.vercel.app/images/girl-screen-overlay.jpg)
 
-# Project Overview: Programmable, Utilty NFTs
+# Project Overview: Programmable, Utility NFTs
 
 We created a Programmable, Utiltiy NFT with ERC-721 DAO Governance priveleges. 
 
