@@ -12,8 +12,8 @@ OpenSea was able to capture our minted NFTs. However payment and financial manag
 
 2. **Inspiration:** This project was inspired by Chainlink's blog posts *[What Is a Dynamic NFT?](https://blog.chain.link/what-is-a-dynamic-nft/)* and *[How to Build Dynamic NFTs on Polygon](https://blog.chain.link/how-to-build-dynamic-nfts-on-polygon/)*
 
-![Builder's DAO Image 1](https://builders-dao.vercel.app/images/girl-screen-overlay.jp)
-g
+![Builder's DAO Image 1](https://builders-dao.vercel.app/images/girl-screen-overlay.jpg)
+
 <!--https://builders-dao.vercel.app/images/analyst-typing.jpg-->
 ## Who We Are
 
