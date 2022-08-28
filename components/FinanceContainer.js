@@ -38,7 +38,7 @@ const FinanceContainer = () => {
     const user2 = "0x650Ac918C9e9C5F58f03C2845b2C11C438Ab5BF7"; 
 
     const isAdmin = ( user2.toUpperCase() === currentAccount.toUpperCase()  ||  user1.toUpperCase() === currentAccount.toUpperCase() )
-    const isSuperAdin = ( user2.toUpperCase() === currentAccount.toUpperCase() )
+    const isSuperAdmin = ( user2.toUpperCase() === currentAccount.toUpperCase() )
 
     //Mumbai
     const addressUSDC = "0xe11a86849d99f524cac3e7a0ec1241828e332c62"; //Swan Faucet
@@ -82,66 +82,66 @@ const FinanceContainer = () => {
 
   /**
    * Get balance due for connected wallet
-   */
-  const getUserMetadata = async () => {
+    */
+    const getUserMetadata = async () => {
     // try {
     //  const { ethereum } = window;
     if (ethereum) {
-      const controllerAddress = await contractSplitMain.getController(
+        const controllerAddress = await contractSplitMain.getController(
         address0xReceiveWallet
-      );
+        );
 
-      const zeroSplitsBalanceDAI = ethers.utils.formatEther(
+        const zeroSplitsBalanceDAI = ethers.utils.formatEther(
         await contractSplitMain.getERC20Balance(
-          address0xReceiveWallet,
-          addressDAI
+            address0xReceiveWallet,
+            addressDAI
         )
-      );
-      const zeroSplitsBalanceUSDC = ethers.utils.formatEther(
+        );
+        const zeroSplitsBalanceUSDC = ethers.utils.formatEther(
         await contractSplitMain.getERC20Balance(
-          address0xReceiveWallet,
-          addressUSDC
+            address0xReceiveWallet,
+            addressUSDC
         )
-      );
-      const zeroSplitsBalanceNative = ethers.utils.formatEther(
+        );
+        const zeroSplitsBalanceNative = ethers.utils.formatEther(
         await contractSplitMain.getETHBalance(address0xReceiveWallet)
-      );
+        );
 
-      const minterBalanceNative = ethers.utils.formatEther(
+        const minterBalanceNative = ethers.utils.formatEther(
         await provider.getBalance(addressMinter)
-      );
+        );
 
-      const minterBalanceUSDC = ethers.utils.formatEther(
+        const minterBalanceUSDC = ethers.utils.formatEther(
         await contractUSDC.balanceOf(addressMinter)
-      );      
+        );      
 
-      const timeLockBalanceNative = ethers.utils.formatEther(
+        const timeLockBalanceNative = ethers.utils.formatEther(
         await provider.getBalance(addressTimeLock)
-      );
-      const timeLockBalanceUSDC = ethers.utils.formatEther(
+        );
+        const timeLockBalanceUSDC = ethers.utils.formatEther(
         await contractUSDC.balanceOf(addressTimeLock)
-      );
-      const timeLockBalanceDAI = ethers.utils.formatEther(
+        );
+        const timeLockBalanceDAI = ethers.utils.formatEther(
         await contractDAI.balanceOf(addressTimeLock)
-      );
+        );
 
-      const timeLockBalancereleasableNative = ethers.utils.formatEther(
+        const timeLockBalancereleasableNative = ethers.utils.formatEther(
         await contractMinter["releasable(address)"](addressTimeLock)
-      );
-      const timeLockReleasableBalanceUSDC = ethers.utils.formatEther(
+        );
+        const timeLockReleasableBalanceUSDC = ethers.utils.formatEther(
         await contractMinter["releasable(address,address)"](
-          addressUSDC,
-          addressTimeLock
+            addressUSDC,
+            addressTimeLock
         )
-      );
-      const timeLockReleasableBalanceDAI = ethers.utils.formatEther(
+        );
+        const timeLockReleasableBalanceDAI = ethers.utils.formatEther(
         await contractMinter["releasable(address,address)"](
-          addressDAI,
-          addressTimeLock
+            addressDAI,
+            addressTimeLock
         )
-      );
+        );
 
-      let metadata = [
+        let metadata = [
         controllerAddress,
         zeroSplitsBalanceDAI*1,
         zeroSplitsBalanceUSDC*1,
@@ -151,21 +151,24 @@ const FinanceContainer = () => {
         Number(timeLockBalanceUSDC),
         Number(timeLockBalanceNative),
 
-      ];
-      setMoneyMetadata(metadata);
-      console.log("0xSplits DAI Balance: ", zeroSplitsBalanceDAI);
+        ];
+        setMoneyMetadata(metadata);
+        console.log("0xSplits DAI Balance: ", zeroSplitsBalanceDAI);
         console.log("0xSplits USDC Balance: ", zeroSplitsBalanceUSDC);
         console.log("0xSplits MATIC Balance: ", zeroSplitsBalanceNative);
-      console.log("Minter Balance in Native Token: ", minterBalanceNative);
-      console.log("Minter Balance in USDC: ", minterBalanceUSDC);      
-      console.log("TimeLock Balance in Native Token: ", timeLockBalanceNative, moneyMetadata[7]);
-      console.log("TimeLock USDC Releasable Balance: ", timeLockReleasableBalanceUSDC);
-      console.log( "TimeLock Releasable Balance: ", timeLockBalancereleasableNative);
-      // //https://docs.ethers.io/v5/single-page/#/v5/migration/web3/-%23-migration-from-web3-js--contracts--overloaded-functions
+        console.log("Minter Balance in Native Token: ", minterBalanceNative);
+        console.log("Minter Balance in USDC: ", minterBalanceUSDC);      
+        console.log("TimeLock Balance in Native Token: ", timeLockBalanceNative);
+        console.log("TimeLock Balance in USDC Token: ", timeLockBalanceUSDC);
+        console.log("TimeLock Balance in DAI Token: ", timeLockBalanceDAI);
+
+        console.log("TimeLock USDC Releasable Balance: ", timeLockReleasableBalanceUSDC);
+        console.log( "TimeLock Releasable Balance: ", timeLockBalancereleasableNative);
+        // //https://docs.ethers.io/v5/single-page/#/v5/migration/web3/-%23-migration-from-web3-js--contracts--overloaded-functions
     } else {
-      console.log("Ethereum object doesn't exist!");
+        console.log("Ethereum object doesn't exist!");
     }
-  };
+    };
 
 
 //https://docs.0xsplits.xyz/sdk#updatesplit
@@ -382,15 +385,33 @@ const FinanceContainer = () => {
 
             switch (token) {
                 case "dai":
-                    tx = await contractDAI.transfer( address0xReceiveWallet, ethers.utils.parseEther(amount) )
+                    const currentAccountDAIBalance  = await contractDAI.balanceOf(currentAccount)
+
+                    if (ethers.utils.formatEther(currentAccountDAIBalance) *1 >= amount* 1 ){
+                         tx = await contractDAI.transfer( address0xReceiveWallet, ethers.utils.parseEther(amount) )
+                    } else{
+                    console.log(ethers.utils.formatEther(currentAccountDAIBalance) *1 )
+                        alert("Your Wallet Doesn't  Have Enough DAI")
+                    }
                     break;
                     
                 case "usdc":
-                    tx = await contractUSDC.transfer( address0xReceiveWallet, ethers.utils.parseUnits(amount, 18) )
+                    const currentAccountUSDCBalance  = await contractUSDC.balanceOf(currentAccount)
+                    if ( ethers.utils.formatEther(currentAccountUSDCBalance) *1 >= amount* 1  ){
+                        tx = await contractUSDC.transfer( address0xReceiveWallet, ethers.utils.parseUnits(amount, 18) )
+                    } else{
+                    console.log(ethers.utils.formatEther(currentAccountUSDCBalance) *1 )
+                    alert("Your Wallet Doesn't  Have Enough USDC")
+                    }
                     break;
             
                 default:
-                tx = await signer.sendTransaction({ to: address0xReceiveWallet, value: ethers.utils.parseEther(amount) })
+                    const currentAccountNativeBalance = await provider.getBalance(currentAccount)
+                    if ( ethers.utils.formatEther(currentAccountNativeBalance) *1 >= amount* 1  ){
+                        tx = await signer.sendTransaction({ to: address0xReceiveWallet, value: ethers.utils.parseEther(amount) })
+                    } else{
+                        alert("Your Wallet Doesn't  Have Enough Native Token")
+                    }
             }
                 await tx.wait() 
             
@@ -458,24 +479,39 @@ const FinanceContainer = () => {
     const handleWithdrawMinter = async (event) => {
         event.preventDefault();
 
-        const string = event.target.amount.value.toString();
+        //const string = event.target.amount.value.toString();
         try {
             if (ethereum) {
-                const tx = minterContract.withdraw( deployer.address, ethers.utils.parseEther( string) ) 
-                
-                console.log("Send to Team Minter: Mining..." + tx.hash);
+
+                let tx
+                let minterUSDCBalance  = await contractUSDC.balanceOf(addressMinter)
+                let minterDAIBalance  = await contractDAI.balanceOf(addressMinter)
+                let minterNativeBalance = await provider.getBalance(addressMinter)
+
+
+            if ( ethers.utils.formatEther(minterNativeBalance.toString()) >0 ){
+                tx = await contractMinter.withdraw( user2, minterNativeBalance  ) 
+                console.log("Sending to Super User: Mining..." + tx.hash);
+                console.log(`View Tx Progress at: https://mumbai.polygonscan.com/tx/${tx.hash}`)            
+                await tx.wait();
+                console.log("Success! Mining Complete..." + tx.hash);}
+
+            if ( ethers.utils.formatEther(minterUSDCBalance.toString()) >0 ){
+                tx = await contractMinter.withdrawERC20( addressUSDC,  user2, minterUSDCBalance )
+                console.log("Sending to Super User: Mining..." + tx.hash);
                 console.log(`View Tx Progress at: https://mumbai.polygonscan.com/tx/${tx.hash}`)
-                // await tx.wait();
-                // console.log("Success! Mining Complete..." + tx.hash)
-                const receipt = await tx.wait();
-
-                const gasUsed = receipt.gasUsed;
-                const effectiveGasPrice = receipt.effectiveGasPrice;
-                const txFee = gasUsed.mul(effectiveGasPrice);
-
+                await tx.wait();
                 console.log("Success! Mining Complete..." + tx.hash);
-                console.log("...Gas Used: " + txFee);
+            }
 
+            if ( ethers.utils.formatEther(minterBalanceDAI.toString()) >0 ){
+                tx = await contractMinter.withdrawERC20( addressDAI,  user2, minterDAIBalance )
+                console.log("Sending to Super User: Mining..." + tx.hash);
+                console.log(`View Tx Progress at: https://mumbai.polygonscan.com/tx/${tx.hash}`)
+                await tx.wait();
+                console.log("Success! Mining Complete..." + tx.hash);
+            }
+                
                 getUserMetadata();
             } else {
                 console.log("Ethereum object doesn't exist!");
@@ -743,7 +779,7 @@ const FinanceContainer = () => {
                     </button>
                 
                 </div> }
-            <hr className="border-2 border-slate-500 cursor-pointer hover:border-green-300 duration-500"/>
+            <hr className="border-2 border-slate-500"/>
            
             {/* <div className="text-center font-bold">Governance Contract Balances</div> */}
 
@@ -773,6 +809,18 @@ const FinanceContainer = () => {
             <b className="font-bold">
               TOTAL BALANCE....... {(moneyMetadata[5] *1 + moneyMetadata[7]*1 ).toFixed(3)}{" "}  MATIC
             </b></ul>
+
+       {  isSuperAdmin && 
+                
+                 <div className='flex items-center justify-center m-3'>
+                    <button  className="bg-slate-600 text-white px-2 py-1 rounded-md"  onClick={handleWithdrawMinter}>
+                         Drain Minter
+                    </button>
+                
+                </div> 
+                }
+
+
              <hr className="border-2 border-slate-500" />
             <span className="">
                 <input type="checkbox" name="agree" id="agree" className="peer" /><label htmlFor="agree" className="ml-3 inline  text-slate-700 font-semibold">Pay Team for Dev Services</label>
