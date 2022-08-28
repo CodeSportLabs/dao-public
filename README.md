@@ -1,6 +1,6 @@
 # Project Overview: Programmable, Utiltiy NFT
 
-![Builder's DAO Image 1](https://builders-dao.vercel.app/images/analyst-typing.jpg)
+
 
 We created a Programmable, Utiltiy NFT. It is Dynamic and Interactive NFT. It includes an mini e-commerce shop, a live listing of the last 5 updated repos, a financial management interface). 
 
@@ -11,6 +11,8 @@ You may view and interact with our NFTs here https://builders-dao.vercel.app/nft
 1. **Integration:** Chainlink's price feeds API is used to convert USD to MATIC in the mini e-commerce shop.
 
 2. **Inspiration:** This project was inspired by Chainlink's blog posts *[What Is a Dynamic NFT?](https://blog.chain.link/what-is-a-dynamic-nft/)* and *[How to Build Dynamic NFTs on Polygon](https://blog.chain.link/how-to-build-dynamic-nfts-on-polygon/)*
+
+![Builder's DAO Image 1](https://builders-dao.vercel.app/images/analyst-typing.jpg)
 
 ## Who We Are
 
