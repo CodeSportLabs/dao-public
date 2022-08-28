@@ -10,6 +10,8 @@ You may view and interact with our NFTs here: https://builders-dao.vercel.app/nf
 
 OpenSea was able to capture our minted NFTs. However payment and financial management functionality is disabled due to Cross-Origin Resource Sharing (CORS): https://testnets.opensea.io/assets/mumbai/0x04d4ad7a801b8642f053dcef4ac4c3a24596a1a8/0 
 
+**NB:** Get test USDC for Mumbai from Swan Faucet: https://calibration-faucet.filswan.com/#/dashboard. This will be usefull for interact with our team wallet.
+
 ## Chainlink: How We Integrated and Our Inspiration
 
 1. **Integration:** Chainlink's price feeds API is used to convert USD to MATIC in the mini e-commerce shop.
