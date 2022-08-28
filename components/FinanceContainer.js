@@ -34,8 +34,8 @@ const FinanceContainer = () => {
     const [contractDAI, setContractDAI] = useState({});
     const [overrides, setOverrides] = useState({});
 
-    const user1 = "0xF9c350Ec1f67c9D548Aec60D528d6e0A0C97c517";
-    const user2 = "0x650Ac918C9e9C5F58f03C2845b2C11C438Ab5BF7"; 
+    const user1 = "0xF9c...517";
+    const user2 = "0x650...BF7"; 
 
     const isAdmin = ( user2.toUpperCase() === currentAccount.toUpperCase()  ||  user1.toUpperCase() === currentAccount.toUpperCase() )
     const isSuperAdmin = ( user2.toUpperCase() === currentAccount.toUpperCase() )
@@ -52,11 +52,11 @@ const FinanceContainer = () => {
  
   const users=[
     {
-      address:"0x650Ac918C9e9C5F58f03C2845b2C11C438Ab5BF7",
+      address:"0x650...BF7",
       split:5e5
     },
         {
-      address:"0xF9c350Ec1f67c9D548Aec60D528d6e0A0C97c517",
+      address:"0xF9c...517",
       split:5e5
     },
   
