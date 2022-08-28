@@ -14,7 +14,7 @@ OpenSea was able to capture our minted NFTs. However payment and financial manag
 
 ![Builder's DAO Image 1](https://builders-dao.vercel.app/images/girl-screen-overlay.jpg)
 
-<!--https://builders-dao.vercel.app/images/analyst-typing.jpg-->
+<!--https://builders-dao.vercel.app/images/analyst-typing.jpg
 ## Who We Are
 
 Code Sport is small  team of **volunteer** Engineers in the USA and Singapore.
@@ -24,7 +24,7 @@ We enjoy coding novel use cases for Programmable, Utility NFTs.  We see NFTs as 
  The below caption is a summary of our thinking:
 
 [![nft-vision-quote-from-marcos|690x160](https://global.discourse-cdn.com/business4/uploads/trondao/original/2X/5/567a7a6da9420ac99271d75ee3fce1f3e1de03f3.png)](https://codesport.io/blockchain/dao/use-cases-for-programmable-and-utility-nfts/)
-
+--->
 # Features
 
 1. Display a live listing of NFT holder's last 5 Github repos 
