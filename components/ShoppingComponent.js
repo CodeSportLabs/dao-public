@@ -29,9 +29,10 @@ const ShoppingComponent = () => {
         console.log("Price inside: ", matic)
         try{
             let tx = await contractMinter.deposit(  {value: ethers.utils.parseEther(matic), gasLimit: ethers.utils.hexlify(5000000)});
-            console.log("Mining...", tx.hash);
+            console.log("Purchasing Your T-Shirt: Mining...", tx.hash);
+            console.log(`View Tx Progress at: https://mumbai.polygonscan.com/tx/${tx.hash}`)
             await tx.wait();
-            console.log("Mined -- ", tx.hash)
+            console.log("Success! Mining Complete..." + tx.hash);
 
         }catch(error){
 
