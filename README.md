@@ -2,23 +2,23 @@
 
 # Project Overview: Programmable, Utility NFTs
 
-We created a Programmable, Utiltiy NFT with ERC-721 DAO Governance priveleges. 
+We created a minter that generates Programmable, Utiltiy NFTs with ERC-721 DAO Governance priveleges. 
 
-The NFT includes an mini e-commerce shop, a live listing of the owners last 5 updated repos, and a DAO financial management app. 
+These NFTs include a mini e-commerce shop, a live listing of the owners last 5 updated repos, and a DAO financial management app. 
 
 You may view and interact with our NFTs here: https://builders-dao.vercel.app/nft/0  and here: https://builders-dao.vercel.app/nft/1
 
-OpenSea was able to capture our minted NFTs. However payment and financial management functionality is disabled due to Cross-Origin Resource Sharing (CORS): https://testnets.opensea.io/assets/mumbai/0x04d4ad7a801b8642f053dcef4ac4c3a24596a1a8/0 
+OpenSea was able to capture our minted NFTs: https://testnets.opensea.io/assets/mumbai/0x04d4ad7a801b8642f053dcef4ac4c3a24596a1a8/0.   However, do note that in-app purchases and financial management functionality is disabled on OpenSea due to Cross-Origin Resource Sharing (CORS) restrictions.
 
 **NB:** Get test USDC for Mumbai from Swan Faucet: https://calibration-faucet.filswan.com/#/dashboard. This will be usefull for interact with our team wallet.
 
 ## Chainlink: How We Integrated and Our Inspiration
 
-1. **Integration:** Chainlink's price feeds API is used to convert USD to MATIC in the mini e-commerce shop.
+1. **Integration:** Chainlink's [price feeds API](https://github.com/CodeSportLabs/dao-public/blob/main/components/HelperFunctions.js) is used to convert USD to MATIC in the mini e-commerce shop.
 
 2. **Inspiration:** This project was inspired by Chainlink's blog posts *[What Is a Dynamic NFT?](https://blog.chain.link/what-is-a-dynamic-nft/)* and *[How to Build Dynamic NFTs on Polygon](https://blog.chain.link/how-to-build-dynamic-nfts-on-polygon/)*
 
-3. **Acknowlegements:** Special thanks to Patrick Collins and Zubin Pratap of Chainlink for their online tutorials and guidance on how to build, implement, and test Governance contracts!
+3. **Acknowlegements:** Special thanks to Patrick Collins and Zubin Pratap of Chainlink for their online tutorials and guidance on how to build and test Governance contracts!
 
 
 
@@ -33,7 +33,7 @@ We enjoy coding novel use cases for Programmable, Utility NFTs.  We see NFTs as 
 
 [![nft-vision-quote-from-marcos|690x160](https://global.discourse-cdn.com/business4/uploads/trondao/original/2X/5/567a7a6da9420ac99271d75ee3fce1f3e1de03f3.png)](https://codesport.io/blockchain/dao/use-cases-for-programmable-and-utility-nfts/)
 --->
-# Features
+# Feature
 
 1. Display a live listing of NFT holder's last 5 Github repos 
 2. Mini-ecommerce shop. Uses Chainlink Price Feeds to convert USD to Matic: 
@@ -45,7 +45,7 @@ We enjoy coding novel use cases for Programmable, Utility NFTs.  We see NFTs as 
 4. Display and Interact with Smart Contract Financials: https://builders-dao.vercel.app/finance
 
 
-# Deploy of Contract to Mumbai on August 21, 2022
+# Deploy of Smart Contract to Mumbai on August 21, 2022
 
 Smart Contract Addresses:
 
