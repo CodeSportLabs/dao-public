@@ -1,24 +1,70 @@
-# Project Overview: Builder's DAO
-We are a team of volunteer Software Engineers in the USA and Singapore.
+# Project Overview: Programmable, Utiltiy NFT
 
-We are looking for new career opportunities in the Blockchain space.. 
+We created a Programmable, Utiltiy NFT. It is Dynamic and Interactive NFT. It includes an mini e-commerce shop, a live listing of the last 5 updated repos, a financial management interface). 
 
-We enjoy coding novel use cases for Programmable, Utility NFTs.  We see NFTs as tokenized React Applications:
+You may view and interact with our NFTs here https://builders-dao.vercel.app/nft/0  and here: https://builders-dao.vercel.app/nft/1
+
+## Chainlink: How We Integrated and Our Inspiration
+
+1. **Integration:** Chainlink's price feeds API is used to convert USD to MATIC in the mini e-commerce shop.
+
+2. **Inspiration:** This project was inspired by Chainlink's blog posts *[What Is a Dynamic NFT?](https://blog.chain.link/what-is-a-dynamic-nft/)* and *[How to Build Dynamic NFTs on Polygon](https://blog.chain.link/how-to-build-dynamic-nfts-on-polygon/)*
+
+## Who We Are
+
+Code Sport is small  team of **volunteer** Engineers in the USA and Singapore.
+
+We enjoy coding novel use cases for Programmable, Utility NFTs.  We see NFTs as tokenized React Applications. You may read our discussion on Progammable, Utility NFTs on our [blog](https://codesport.io/blockchain/dao/use-cases-for-programmable-and-utility-nfts/).
+
+ The below caption is a summary of our thinking:
 
 [![nft-vision-quote-from-marcos|690x160](https://global.discourse-cdn.com/business4/uploads/trondao/original/2X/5/567a7a6da9420ac99271d75ee3fce1f3e1de03f3.png)](https://codesport.io/blockchain/dao/use-cases-for-programmable-and-utility-nfts/)
 
-Our website are live and may be tested on:
+# Features
 
-* [Polygon's Mumbai Testnet](https://builders-dao.vercel.app/) 
+1. Display a live listing of NFT holder's last 5 Github repos 
+2. Mini-ecommerce shop. Uses Chainlink Price Feeds to convert USD to Matic: 
+   * Test Credit Card Number: 4111 1111 1111 1111
+   * Test CSV: 123
 
-![Builder's DAO Image 1](https://bttc-builders-dao.vercel.app/images/analyst-typing.jpg)
+3. NFT holders may vote on Governance proposals: https://builders-dao.vercel.app/vote
 
-# Builder's DAO Public Repo
-
-The code for this project is in a private repo. If you need access, please contact [Code Sport Labs by email](https://codesport.io/contact-us)
+4. Display and Interact with Smart Contract Financials: https://builders-dao.vercel.app/finance
 
 
-View the resource library at: https://codesport.io/dao-public
+# Deploy of Contract to Mumbai on August 21, 2022
+
+Smart Contract Addresses:
+
+```
+$ npx hardhat run scripts/deploy-eleven.js --network mumbai
+
+pinFileToIPFS Output:
+{
+  IpfsHash: 'QmcK9hxrMB5JbY7gCrcvFThQ5jbbsWyzJngaYwx4YnmbWP',
+  PinSize: 54533,
+  Timestamp: '2022-08-22T01:01:42.845Z'
+}
+File URL: https://gateway.pinata.cloud/ipfs/QmcK9hxrMB5JbY7gCrcvFThQ5jbbsWyzJngaYwx4YnmbWP
+DAO Logo IPFS URL: QmcK9hxrMB5JbY7gCrcvFThQ5jbbsWyzJngaYwx4YnmbWP
+
+Minter Contract Metadata URI: data:application/json;base64,eyJjb250cmFjdF9tZXRhZGF0YSI6eyJuYW1lIjoiTkZUIE1pbnRlcjogVmVyc2lvbiBFbGV2ZW4iLCJkZXNjcmlwdGlvbiI6IkJ1aWxkZXJzJyBEQU8gKEl0ZXJhdGlvbiAjMTEpIHNwZWNpYWxpemVzIGluIGNyZWF0aW5nIFByb2dyYW1tYWJsZSBVdGlsaXR5IE5GVHMuIFdlIHNlZSBORlRzIGFzIHRva2VuaXplZCBzb2Z0d2FyZSBhcHBsaWN0aW9ucyIsImltYWdlIjoiaXBmczovL1FtY0s5aHhyTUI1SmJZN2dDcmN2RlRoUTVqYmJzV3l6Sm5nYVl3eDRZbm1iV1AiLCJleHRlcm5hbF9saW5rIjoiaHR0cHM6Ly9idWlsZGVycy1kYW8udmVyY2VsLmFwcCIsInNlbGxlcl9mZWVfYmFzaXNfcG9pbnRzIjoyMDAwLCJmZWVfcmVjaXBpZW50IjoiMHg2NTBBYzkxOEM5ZTlDNUY1OGYwM0MyODQ1YjJDMTFDNDM4QWI1QkY3In19
+
+TimeLock deployed TO: 0x0854B10473Ef65870A60e0f03BA94AAE4563d998
+NFT Minter deployed TO: 0x04d4Ad7A801B8642f053dCEf4Ac4C3a24596a1a8
+Governor deployed TO:  0xdBbCAa174Ec275b36239eB0A14115Cee45CD7372
+Box contract deployed TO: 0x7EEdF9489d6E4594FadA47E3dB3415872894Ccb6
+
+USDC Mumbai Testnet Contract Address: 0xe11a86849d99f524cac3e7a0ec1241828e332c62
+0xSplit Contract Address: 0xAEDC3E203A84dB63926Bb775F3183D851a4D2a16
+```
+
+
+
+
+
+
+
 
 
 <!--
