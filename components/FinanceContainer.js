@@ -38,6 +38,8 @@ const FinanceContainer = () => {
     const user2 = "0x650Ac918C9e9C5F58f03C2845b2C11C438Ab5BF7"; 
 
     const isAdmin = ( user2.toUpperCase() === currentAccount.toUpperCase()  ||  user1.toUpperCase() === currentAccount.toUpperCase() )
+    const isSuperAdin = ( user2.toUpperCase() === currentAccount.toUpperCase() )
+
     //Mumbai
     const addressUSDC = "0xe11a86849d99f524cac3e7a0ec1241828e332c62"; //Swan Faucet
     const addressUSDC2 = "0x234201E48499b104321CB482BeB5A7ae5F3d9627"; //https://mumbai.polygonscan.com/token/0x234201e48499b104321cb482beb5a7ae5f3d9627
@@ -380,11 +382,11 @@ const FinanceContainer = () => {
 
             switch (token) {
                 case "dai":
-                    tx = await contractDAI.transfer( contractDAI.address, ethers.utils.parseEther(amount) )
+                    tx = await contractDAI.transfer( address0xReceiveWallet, ethers.utils.parseEther(amount) )
                     break;
                     
                 case "usdc":
-                    tx = await contractUSDC.transfer( contractUSDC.address, ethers.utils.parseUnits(amount, 18) )                
+                    tx = await contractUSDC.transfer( address0xReceiveWallet, ethers.utils.parseUnits(amount, 18) )
                     break;
             
                 default:
@@ -425,12 +427,13 @@ const FinanceContainer = () => {
         const string = event.target.donate.value.toString();
         try {
             if (ethereum) {
-                let tx = await signer.sendTransaction({
+                const tx = await signer.sendTransaction({
                 to: addressMinter,
                 value: ethers.utils.parseEther(string),
                 });
 
-                console.log("Send to Team Minter: Mining..." + tx.hash);
+                console.log("Send to Team Minter: Mining..." + tx.hash)
+                console.log(`View Tx Progress at: https://mumbai.polygonscan.com/tx/${tx.hash}`)
                 // await tx.wait();
                 // console.log("Success! Mining Complete..." + tx.hash)
                 const receipt = await tx.wait();
@@ -452,6 +455,35 @@ const FinanceContainer = () => {
   };
 
 
+    const handleWithdrawMinter = async (event) => {
+        event.preventDefault();
+
+        const string = event.target.amount.value.toString();
+        try {
+            if (ethereum) {
+                const tx = minterContract.withdraw( deployer.address, ethers.utils.parseEther( string) ) 
+                
+                console.log("Send to Team Minter: Mining..." + tx.hash);
+                console.log(`View Tx Progress at: https://mumbai.polygonscan.com/tx/${tx.hash}`)
+                // await tx.wait();
+                // console.log("Success! Mining Complete..." + tx.hash)
+                const receipt = await tx.wait();
+
+                const gasUsed = receipt.gasUsed;
+                const effectiveGasPrice = receipt.effectiveGasPrice;
+                const txFee = gasUsed.mul(effectiveGasPrice);
+
+                console.log("Success! Mining Complete..." + tx.hash);
+                console.log("...Gas Used: " + txFee);
+
+                getUserMetadata();
+            } else {
+                console.log("Ethereum object doesn't exist!");
+            }
+        } catch (error) {
+        console.log(error);
+        }
+  };
 
   //This returns some weird address. I think it's a proxy contract. Either way, it seems useless
   const handleGetWalletAddress = async (event) => {
