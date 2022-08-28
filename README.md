@@ -8,6 +8,8 @@ We created a minter that generates Programmable, Utiltiy NFTs with ERC-721 DAO G
 
 2. **Live, Working Demo:** You may view and interact with our NFTs for DAO [member 0](https://builders-dao.vercel.app/nft/0)  and DAO [member 1](https://builders-dao.vercel.app/nft/1)
 
+3. **Join Our DAO and Mint Programmable NFT:**  The new member registratuion page is [here](https://builders-dao.vercel.app/join-us). A GitHub account is required
+
 3. **OpenSea:**  was able to capture [our minted NFTs](https://testnets.opensea.io/assets/mumbai/0x04d4ad7a801b8642f053dcef4ac4c3a24596a1a8/0).   
    * **NB:** In-app purchases and financial management functionality is disabled on OpenSea. This is b/c of Cross-Origin Resource Sharing (CORS) security enforced by our domain restrictions.
 
