@@ -33,18 +33,20 @@ We enjoy coding novel use cases for Programmable, Utility NFTs.  We see NFTs as 
  The below caption is a summary of our thinking:
 
 [![nft-vision-quote-from-marcos|690x160](https://global.discourse-cdn.com/business4/uploads/trondao/original/2X/5/567a7a6da9420ac99271d75ee3fce1f3e1de03f3.png)](https://codesport.io/blockchain/dao/use-cases-for-programmable-and-utility-nfts/)
---->
-# Feature
+
+# Features
 
 1. Display a live listing of NFT holder's last 5 Github repos 
 2. Mini-ecommerce shop. Uses Chainlink Price Feeds to convert USD to Matic: 
    * Test Credit Card Number: 4111 1111 1111 1111
    * Test CSV: 123
 
-3. NFT holders may vote on Governance proposals: https://builders-dao.vercel.app/vote
+3. NFT holders may vote on Governance proposals
 
-4. Display and Interact with Smart Contract Financials: https://builders-dao.vercel.app/finance
+4. Display and Interact with Smart Contract Financials
 
+5. Anyone may submit a proposal.
+--->
 
 # Deploy of Smart Contract to Mumbai on August 21, 2022
 
