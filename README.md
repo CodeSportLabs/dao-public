@@ -1,3 +1,5 @@
+![Builder's DAO Image 1](https://builders-dao.vercel.app/images/girl-screen-overlay.jpg)
+
 # Project Overview: Programmable, Utiltiy NFT
 
 We created a Programmable, Utiltiy NFT. It is Dynamic and Interactive NFT. It includes an mini e-commerce shop, a live listing of the last 5 updated repos, a financial management interface). 
@@ -14,7 +16,7 @@ OpenSea was able to capture our minted NFTs. However payment and financial manag
 
 3. **Acknowlegements:** Special thanks to Patrick Collins and Zubin Pratap of Chainlink for their online tutorials and guidance on how to build, implement, and test Governance contracts!
 
-![Builder's DAO Image 1](https://builders-dao.vercel.app/images/girl-screen-overlay.jpg)
+
 
 <!--https://builders-dao.vercel.app/images/analyst-typing.jpg
 ## Who We Are
