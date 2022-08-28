@@ -4,13 +4,14 @@
 
 We created a minter that generates Programmable, Utiltiy NFTs with ERC-721 DAO Governance priveleges. 
 
-These NFTs include a mini e-commerce shop, a live listing of the owners last 5 updated repos, and a DAO financial management app. 
+1. These NFTs include a mini e-commerce shop, a live listing of the owners last 5 updated repos, and a DAO financial management app. 
 
-You may view and interact with our NFTs here: https://builders-dao.vercel.app/nft/0  and here: https://builders-dao.vercel.app/nft/1
+2. You may view and interact with our NFTs for DAO [member 0](https://builders-dao.vercel.app/nft/0)  and DAO [member 1](https://builders-dao.vercel.app/nft/1)
 
-OpenSea was able to capture our minted NFTs: https://testnets.opensea.io/assets/mumbai/0x04d4ad7a801b8642f053dcef4ac4c3a24596a1a8/0.   However, do note that in-app purchases and financial management functionality is disabled on OpenSea due to Cross-Origin Resource Sharing (CORS) restrictions.
+3. OpenSea was able to capture [our minted NFTs](https://testnets.opensea.io/assets/mumbai/0x04d4ad7a801b8642f053dcef4ac4c3a24596a1a8/0).   
+   * **NB:** In-app purchases and financial management functionality is disabled OpenSea. This is b/c of Cross-Origin Resource Sharing (CORS) security enforced by our domain restrictions.
 
-**NB:** Get test USDC for Mumbai from Swan Faucet: https://calibration-faucet.filswan.com/#/dashboard. This will be usefull for interact with our team wallet.
+**NB:** Grab test USDC for Mumbai from Swan Faucet: https://calibration-faucet.filswan.com/#/dashboard. This will be usefull for interact with our team wallet.
 
 ## Chainlink: How We Integrated and Our Inspiration
 
