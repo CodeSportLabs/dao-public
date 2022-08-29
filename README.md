@@ -2,7 +2,7 @@
 
 # Project Overview: Programmable, Utility NFTs
 
-We created a minter that generates Programmable, Utiltiy NFTs with ERC-721 DAO Governance priveleges. The project was deployed to the Mumbai Testnet.
+We created a minter that generates Programmable, Utiltiy NFTs with ERC-721 DAO Governance privileges. The project was deployed to the Mumbai Testnet.
 
 1. **Features:** These NFTs include a mini e-commerce shop, a live listing of the owners last 5 updated repos, and a DAO financial management app. 
 
@@ -23,6 +23,10 @@ We created a minter that generates Programmable, Utiltiy NFTs with ERC-721 DAO G
 
 3. **Acknowlegements:** Special thanks to Patrick Collins and Zubin Pratap of Chainlink for their online tutorials and guidance on how to build and test Governance contracts!
 
+## Research and Project Resource Library
+
+1. Code Sport [published](https://codesport.io/dao-public/) an avanced-topic resource library that will be used to further build-out the Builder's DAO ecosystem
+2. Our blog post, *[Use Cases for Utility & Programmable NFTs](https://codesport.io/blockchain/dao/use-cases-for-programmable-and-utility-nfts/)*, educates the community about these novel NFTs
 
 
 <!--https://builders-dao.vercel.app/images/analyst-typing.jpg
@@ -76,9 +80,6 @@ Box contract deployed TO: 0x7EEdF9489d6E4594FadA47E3dB3415872894Ccb6
 USDC Mumbai Testnet Contract Address: 0xe11a86849d99f524cac3e7a0ec1241828e332c62
 0xSplit Contract Address: 0xAEDC3E203A84dB63926Bb775F3183D851a4D2a16
 ```
-
-
-
 
 
 
