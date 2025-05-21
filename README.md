@@ -2,7 +2,7 @@
 
 # Project Overview: Programmable, Utility NFTs
 
-Builder's DAO is for Blockchain developers.  It uses programmable NFTs to provided gated access to our community's benefits including USDC payment streams, **[E-commerce store fronts]**(https://www.youtube.com/watch?v=x563Tdim9wE), and more!
+Builder's DAO is for Blockchain developers.  It uses programmable NFTs to provided gated access to our community's benefits including USDC payment streams, **[E-commerce store fronts](https://www.youtube.com/watch?v=x563Tdim9wE)**, and more!
 
 We created a minter that generates Programmable, Utility NFTs with ERC-721 DAO Governance privileges. The project was deployed to the Mumbai Testnet.
 
