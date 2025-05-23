@@ -1,5 +1,9 @@
 ![Builder's DAO Image 1](https://builders-dao.vercel.app/images/girl-screen-overlay.jpg)
 
+#  Public vs Private Repo
+
+If you're a hackathon judge, investor, or grantee please email us ![Email Address Gif](https://codesport.io/assets/csi/images/posts/codesport-cares@2x.png)at to access our private repor for this project to view our full code.
+
 # Project Overview: Programmable, Utility NFTs
 
 Builder's DAO is for Blockchain developers.  It uses programmable NFTs to provided gated access to our community's benefits including USDC payment streams, **[E-commerce store fronts](https://www.youtube.com/watch?v=x563Tdim9wE)**, and more!
