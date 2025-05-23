@@ -2,7 +2,7 @@
 
 #  Public vs Private Repo
 
-<div style="display: flex; line-height: 300px">If you're a hackathon judge, investor, or grantee please email us <img src="https://codesport.io/assets/csi/images/posts/codesport-cares@2x.png" alt="email address" style="width:200px; margin: 6px;"/> at to access our private repor for this project to view our full code.</div>
+If you're a hackathon judge, investor, or grantee please email us <img src="https://codesport.io/assets/csi/images/posts/codesport-cares@2x.png" alt="email address" style="width:200px; margin-top:2px;"/> at to access our private repor for this project to view our full code.
 
 # Project Overview: Programmable, Utility NFTs
 
